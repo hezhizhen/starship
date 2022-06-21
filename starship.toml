@@ -85,7 +85,7 @@ commit_hash_length = 4
 disabled = false
 added_style = "fg:cyan bg:#FCA17D"
 deleted_style = "fg:red bg:#FCA17D"
-format = '[+$added]($added_style)[/](bg:#FCA17D)[+$deleted ]($deleted_style)'
+format = '[+$added]($added_style)[/](bg:#FCA17D)[-$deleted ]($deleted_style)'
 
 [git_state]
 format = '[\($state( $progress_current of $progress_total)\)]($style) ' # TODO: tweak it
